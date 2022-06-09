@@ -1,9 +1,9 @@
 import React from 'react';
 import { RiFileList3Line } from 'react-icons/ri'
 
-const MenuProfile = ({profile}) => {
+const MenuProfile = ({profile,className}) => {
     return(
-        <div className="container-menu">
+        <div className={className}>
             <div tabIndex={0} className='container-button'>
                 <input id='profile' type='radio' name='options'/>
                 <label htmlFor='profile'><RiFileList3Line/></label>

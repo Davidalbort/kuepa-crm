@@ -3,7 +3,7 @@ import { RiHomeLine } from 'react-icons/ri'
 import { FaClipboardList } from 'react-icons/fa'
 import { CgMenuBoxed } from 'react-icons/cg'
 
-const MenuNav = () => {
+const MenuNav = ({className}) => {
     const options = [{icon:<RiHomeLine/>,id:1},{icon:<FaClipboardList/>,id:2}, {icon:<CgMenuBoxed/>,id:3}]
     const listNav = options.map(option => (
             <div tabIndex={0} key={option.id} className='option'>
@@ -13,7 +13,7 @@ const MenuNav = () => {
     
     ))
     return(
-        <div className="containerNav">
+        <div className={className}>
             {listNav}
         </div>
     )

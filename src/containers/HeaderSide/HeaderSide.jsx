@@ -3,6 +3,7 @@ import { Logo } from '../../components/Logo/Logo';
 import { MenuNav } from '../../components/MenuNav/MenuNav';
 import { MenuProfile } from '../../components/MenuProfile/MenuProfile';
 import { ProPlayercontext } from '../../context/ProPlayercontext';
+import styles from '../../styles/containers/headerside.module.scss';
 
 
 
@@ -16,11 +17,16 @@ const HeaderSide = () => {
   }
   console.log(user)
   return(
-      <div className="container-header">
-        <Logo/>
-        <MenuNav/>
+      <div className={styles.container}>
+        <Logo
+          className={styles.logo}
+        />
+        <MenuNav
+          className={styles.menunav}
+        />
         {user && <MenuProfile
             profile={user}
+            className={styles.menuprofile}
         /> }
       </div>
     )

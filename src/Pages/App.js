@@ -1,4 +1,3 @@
-import '../App.css';
 import { useGetProPlayers } from '../hooks/useGetProPlayers';
 import { ProPlayercontext } from '../context/ProPlayercontext';
 import AppUI from './AppUI';
