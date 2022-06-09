@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kuepa-crm/static/css/main.af908212.css",
+    "main.js": "/kuepa-crm/static/js/main.220bfb9a.js",
+    "static/js/787.93b88509.chunk.js": "/kuepa-crm/static/js/787.93b88509.chunk.js",
+    "index.html": "/kuepa-crm/index.html",
+    "main.af908212.css.map": "/kuepa-crm/static/css/main.af908212.css.map",
+    "main.220bfb9a.js.map": "/kuepa-crm/static/js/main.220bfb9a.js.map",
+    "787.93b88509.chunk.js.map": "/kuepa-crm/static/js/787.93b88509.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af908212.css",
+    "static/js/main.220bfb9a.js"
+  ]
+}
