@@ -1,11 +1,12 @@
 import React from 'react'
 import {ImMail} from 'react-icons/im';
+import styles from '../../styles/components/cardnotification.module.scss'
 
 const CardNotification = ({time,name}) => {
     
   return (
-    <article>
-            <div className='card-header'>
+    <article className={styles.container}>
+            <div className={styles.title}>
                 <ImMail/>
                 <span>MAIL</span>
             </div>
