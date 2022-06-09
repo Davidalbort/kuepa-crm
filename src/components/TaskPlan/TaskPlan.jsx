@@ -1,9 +1,10 @@
 
-import React from 'react'
+import React from 'react';
+import styles from '../../styles/components/taskplan.module.scss';
 
 const TaskPlan = ({data}) => {
   return (
-    <article className='container-taskplan'>
+    <article className={styles.container}>
         <div className='container-porcentual'>
             <div>
                 <div className='wrapper-circle-percentual'>
@@ -15,17 +16,17 @@ const TaskPlan = ({data}) => {
 
             </div>
         </div>
-        <div className='container-data'>
-            <div className='data-leads'>
-              <span className='subtitle-p'>Leads Obtenidos</span>
+        <div className={styles.data}>
+            <div className={styles.leads}>
+              <span className={styles.subtitle}>Leads Obtenidos</span>
               <span className='subtitle-number'>{data.data.leads}/{data.data.totalLead}</span>
             </div>
-            <div className='data-llamadas'>
-              <span className='subtitle-p'>Leads Obtenidos</span>
+            <div className={styles.leads}>
+              <span className={styles.subtitle}>Leads Obtenidos</span>
               <span className='subtitle-number'>{data.data.callQueue}/{data.data.totalCalls}</span>
             </div>
-            <div className='data-registration'>
-              <span className='subtitle-p'>Leads Obtenidos</span>
+            <div className={styles.leads}>
+              <span className={styles.subtitle}>Leads Obtenidos</span>
               <span className='subtitle-number'>{data.data.registrationCompleted}/{data.data.totalRegistrations}</span>
             </div>
         </div>

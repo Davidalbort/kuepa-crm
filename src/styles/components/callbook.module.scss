@@ -1,0 +1,31 @@
+@import '../abstracs/colors.scss';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 30rem;
+    padding: 0 0 0 2rem;
+}
+
+.list{
+    overflow-y: scroll;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 11rem;
+    align-items: center;
+}
+

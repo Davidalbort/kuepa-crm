@@ -1,0 +1,30 @@
+@import '../abstracs/colors.scss';
+
+.container{
+
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.porcent{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    .title{
+
+    }
+    .data{
+        display: flex;
+        padding-top: 10rem;
+    }
+}
+
+.contact{
+    display: flex;
+    padding-top: 10rem;
+    justify-content: space-between;
+}

@@ -1,0 +1,20 @@
+@import '../abstracs/colors.scss';
+
+.container{
+    display: flex;
+    width: 36rem;
+    justify-content: space-evenly;
+    align-items: center;
+    .data{
+        display: flex;
+        width: 15rem;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .leads{
+            display: flex;
+            .span{
+                display: flex;
+            }
+        }
+    }
+}
