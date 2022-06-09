@@ -15,7 +15,6 @@ const HeaderSide = () => {
     numberRandom= Math.floor(Math.random()*100)
     user = characters[numberRandom];
   }
-  console.log(user)
   return(
       <div className={styles.container}>
         <Logo

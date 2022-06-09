@@ -12,7 +12,6 @@ import styles from '../../styles/containers/homepage.module.scss';
 const HomePage = ({data}) =>{
     const active = true;
     const {user}=useContext(ProPlayercontext);
-    console.log(user)
     const API= 'https://api.opendota.com/api/heroes';
     const {characters}=useGetApi(API)
     return(

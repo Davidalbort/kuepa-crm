@@ -29,12 +29,12 @@ const Select = () => {
                     todayWeek='Fri';
                     break;
         }
-        return dates =`${todayWeek}, ${date.getDate()} / ${date.getMonth()} / ${date.getFullYear()}`;
+        return dates =`${todayWeek}, ${date.getDate()} / ${(date.getMonth()+1)} / ${date.getFullYear()}`;
                     
     }
         const currentDate = dateToday(date);
     
-    console.log(dateToday(date));
+    
     return(
         <select className=''>
             {<option value={currentDate}>{currentDate}</option>}
